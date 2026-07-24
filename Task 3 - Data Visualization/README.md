@@ -1,20 +1,33 @@
-# Task 3 - Data Visualization
+# 📊 Task 3 – Data Visualization Dashboard
 
-## Objective
-
-The objective of this project is to analyze the Netflix Titles dataset and present meaningful insights through various visualizations. A dashboard was created using Python libraries to help understand the distribution and trends in the dataset.
+A Python-based dashboard that visualizes the Netflix Titles dataset to uncover trends, content distribution, and viewing insights through informative charts.
 
 ---
 
-## Dataset
+## 📸 Dashboard Preview
 
-**Netflix Titles Dataset**
-
-The dataset contains information about movies and TV shows available on Netflix, including title, type, release year, rating, country, duration, and genre.
+<p align="center">
+  <img src="outputs/graphs/netflix_dashboard.png" alt="Netflix Dashboard" width="900"/>
+</p>
 
 ---
 
-## Technologies Used
+## 🚀 Project Overview
+
+This project focuses on transforming raw Netflix data into meaningful visual insights. Using Python visualization libraries, a dashboard was created to analyze the distribution of movies and TV shows, content ratings, production countries, genres, release trends, and movie durations.
+
+---
+
+## 🎯 Objectives
+
+- Analyze Netflix content using visual analytics.
+- Identify content trends and distributions.
+- Build a dashboard containing multiple statistical visualizations.
+- Present insights in an easy-to-understand graphical format.
+
+---
+
+## 🛠 Technologies Used
 
 - Python
 - Pandas
@@ -24,30 +37,18 @@ The dataset contains information about movies and TV shows available on Netflix,
 
 ---
 
-## Visualizations
+## 📈 Dashboard Features
 
-The dashboard includes the following charts:
-
-- Movies vs TV Shows Distribution
-- Rating Distribution
-- Top 10 Countries with Most Content
-- Top 10 Genres
-- Content Released Over the Years
-- Movie Duration Distribution
+- 📺 Movies vs TV Shows Distribution
+- ⭐ Rating Distribution
+- 🌍 Top 10 Countries with Most Content
+- 🎭 Top 10 Genres
+- 📅 Content Released Over the Years
+- ⏱ Movie Duration Distribution
 
 ---
 
-## Output
-
-The generated dashboard is saved in:
-
-```
-outputs/graphs/netflix_dashboard.png
-```
-
----
-
-## Project Structure
+## 📂 Project Structure
 
 ```
 Task 3 - Data Visualization/
@@ -55,6 +56,7 @@ Task 3 - Data Visualization/
 ├── datasets/
 ├── outputs/
 │   └── graphs/
+│       └── netflix_dashboard.png
 ├── screenshots/
 ├── dashboard.py
 ├── observations.md
@@ -64,12 +66,18 @@ Task 3 - Data Visualization/
 
 ---
 
-## Conclusion
+## 📚 Key Learning Outcomes
 
-This project demonstrates how data visualization can transform raw data into meaningful insights, making trends and patterns easier to understand through graphical representation.
+- Data Cleaning
+- Exploratory Data Visualization
+- Dashboard Design
+- Statistical Interpretation
+- Graphical Data Representation
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **A. Hanuma Siva Prabhath**
+
+CodeAlpha Data Analytics Internship

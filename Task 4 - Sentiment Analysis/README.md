@@ -1,20 +1,50 @@
-# Task 4 - Sentiment Analysis
+# 😊 Task 4 – Sentiment Analysis
 
-## Objective
-
-The objective of this project is to analyze customer reviews and determine whether each review expresses a Positive, Negative, or Neutral sentiment using Natural Language Processing (NLP).
+A Natural Language Processing (NLP) project that classifies customer reviews into **Positive**, **Negative**, or **Neutral** sentiments and visualizes the results.
 
 ---
 
-## Dataset
+## 📸 Output Preview
 
-**Amazon Reviews Dataset**
+<table>
+<tr>
+<td align="center">
+<b>Sentiment Distribution</b><br>
+<img src="outputs/graphs/sentiment_distribution.png" width="420"/>
+</td>
 
-The dataset contains customer reviews that are analyzed using TextBlob sentiment analysis.
+<td align="center">
+<b>Sentiment Percentage</b><br>
+<img src="outputs/graphs/sentiment_pie.png" width="420"/>
+</td>
+</tr>
+</table>
+
+<br>
+
+<p align="center">
+<b>Word Cloud</b><br><br>
+<img src="outputs/graphs/wordcloud.png" width="700"/>
+</p>
 
 ---
 
-## Technologies Used
+## 🚀 Project Overview
+
+This project performs sentiment analysis on customer reviews using TextBlob. The classified sentiments are further analyzed using charts and a word cloud to better understand customer opinions.
+
+---
+
+## 🎯 Objectives
+
+- Clean customer review data.
+- Perform sentiment classification.
+- Visualize sentiment distribution.
+- Generate meaningful insights from customer feedback.
+
+---
+
+## 🛠 Technologies Used
 
 - Python
 - Pandas
@@ -25,35 +55,19 @@ The dataset contains customer reviews that are analyzed using TextBlob sentiment
 
 ---
 
-## Features
+## ✨ Features
 
-- Data Cleaning
-- Sentiment Classification
-- Sentiment Distribution Analysis
-- Pie Chart Visualization
-- Word Cloud Generation
-- Sample Positive Reviews
-- Sample Negative Reviews
-
----
-
-## Output
-
-The project generates the following visualizations:
-
-- Sentiment Distribution Bar Chart
-- Sentiment Percentage Pie Chart
-- Word Cloud
-
-These are stored in:
-
-```
-outputs/graphs/
-```
+- 🧹 Data Cleaning
+- 😊 Sentiment Classification
+- 📊 Sentiment Distribution Analysis
+- 🥧 Sentiment Percentage Pie Chart
+- ☁ Word Cloud Generation
+- 💬 Sample Positive Reviews
+- 💬 Sample Negative Reviews
 
 ---
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 Task 4 - Sentiment Analysis/
@@ -61,6 +75,9 @@ Task 4 - Sentiment Analysis/
 ├── datasets/
 ├── outputs/
 │   └── graphs/
+│       ├── sentiment_distribution.png
+│       ├── sentiment_pie.png
+│       └── wordcloud.png
 ├── screenshots/
 ├── sentiment_analysis.py
 ├── observations.md
@@ -70,12 +87,18 @@ Task 4 - Sentiment Analysis/
 
 ---
 
-## Conclusion
+## 📚 Key Learning Outcomes
 
-This project demonstrates the use of Natural Language Processing techniques to understand customer opinions and visualize sentiment patterns effectively.
+- Natural Language Processing (NLP)
+- Sentiment Analysis
+- Text Classification
+- Data Visualization
+- Word Cloud Generation
 
 ---
 
-## Author
+## 👨‍💻 Author
 
 **A. Hanuma Siva Prabhath**
+
+CodeAlpha Data Analytics Internship
